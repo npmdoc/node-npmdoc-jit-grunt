@@ -61,12 +61,111 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.jit-grunt">module jit-grunt</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jit-grunt.jit-grunt">
+            function <span class="apidocSignatureSpan"></span>jit-grunt
+            <span class="apidocSignatureSpan">(grunt, mappings)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jit-grunt.toString">
+            function <span class="apidocSignatureSpan">jit-grunt.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.jit-grunt.toString">module jit-grunt.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jit-grunt.toString.toString">
+            function <span class="apidocSignatureSpan">jit-grunt.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.jit-grunt" id="apidoc.module.jit-grunt">module jit-grunt</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.jit-grunt.jit-grunt" id="apidoc.element.jit-grunt.jit-grunt">
+        function <span class="apidocSignatureSpan"></span>jit-grunt
+        <span class="apidocSignatureSpan">(grunt, mappings)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jit-grunt = function (grunt, mappings) {
+  var jit = jitGrunt(grunt, mappings);
+  return function (options) {
+    options = options || {};
+
+    if (options.loadTasks) {
+      jit.customTasksDir = path.resolve(options.loadTasks);
+    }
+
+    if (options.customTasksDir) {
+      jit.customTasksDir = path.resolve(options.customTasksDir);
+    }
+
+    if (options.pluginsRoot) {
+      jit.pluginsRoot = options.pluginsRoot;
+    }
+
+    if (options.cwd) {
+      jit.cwd = options.cwd;
+    }
+
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jit-grunt.toString" id="apidoc.element.jit-grunt.toString">
+        function <span class="apidocSignatureSpan">jit-grunt.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.jit-grunt.toString" id="apidoc.module.jit-grunt.toString">module jit-grunt.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.jit-grunt.toString.toString" id="apidoc.element.jit-grunt.toString.toString">
+        function <span class="apidocSignatureSpan">jit-grunt.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
