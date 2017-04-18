@@ -1,9 +1,14 @@
-# api documentation for  [jit-grunt (v0.10.0)](https://github.com/shootaroo/jit-grunt)  [![npm package](https://img.shields.io/npm/v/npmdoc-jit-grunt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jit-grunt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jit-grunt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jit-grunt)
+# npmdoc-jit-grunt
+
+#### api documentation for  [jit-grunt (v0.10.0)](https://github.com/shootaroo/jit-grunt)  [![npm package](https://img.shields.io/npm/v/npmdoc-jit-grunt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jit-grunt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jit-grunt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jit-grunt)
+
 #### JIT plugin loader for Grunt.
 
-[![NPM](https://nodei.co/npm/jit-grunt.png?downloads=true)](https://www.npmjs.com/package/jit-grunt)
+[![NPM](https://nodei.co/npm/jit-grunt.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jit-grunt)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jit-grunt/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-jit-grunt_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jit-grunt/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-jit-grunt/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-jit-grunt/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jit-grunt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jit-grunt/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jit-grunt/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "shootaroo",
-        "email": "shotaro.tsubouchi@gmail.com"
+        "name": "shootaroo"
     },
     "bugs": {
         "url": "https://github.com/shootaroo/jit-grunt/issues"
@@ -64,8 +68,7 @@
     "main": "jit-grunt",
     "maintainers": [
         {
-            "name": "shootaroo",
-            "email": "shotaro.tsubouchi@gmail.com"
+            "name": "shootaroo"
         }
     ],
     "name": "jit-grunt",
@@ -73,7 +76,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/shootaroo/jit-grunt.git"
@@ -92,16 +94,6 @@
     "version": "0.10.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module jit-grunt](#apidoc.module.jit-grunt)
-
-
-
-# <a name="apidoc.module.jit-grunt"></a>[module jit-grunt](#apidoc.module.jit-grunt)
 
 
 
