@@ -1,6 +1,6 @@
 # npmdoc-jit-grunt
 
-#### api documentation for  [jit-grunt (v0.10.0)](https://github.com/shootaroo/jit-grunt)  [![npm package](https://img.shields.io/npm/v/npmdoc-jit-grunt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jit-grunt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jit-grunt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jit-grunt)
+#### basic api documentation for  [jit-grunt (v0.10.0)](https://github.com/shootaroo/jit-grunt)  [![npm package](https://img.shields.io/npm/v/npmdoc-jit-grunt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jit-grunt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jit-grunt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jit-grunt)
 
 #### JIT plugin loader for Grunt.
 
@@ -91,7 +91,8 @@
         "test": "npm-run-all build -p lint mocha",
         "watch": "babel src -d lib --watch"
     },
-    "version": "0.10.0"
+    "version": "0.10.0",
+    "bin": {}
 }
 ```
 
