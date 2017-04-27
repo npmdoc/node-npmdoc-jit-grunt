@@ -1,4 +1,4 @@
-npmdoc-jit-grunt@0.0.2 /home/travis/build/npmdoc/node-npmdoc-jit-grunt
+npmdoc-jit-grunt@2017.4.26 /home/travis/build/npmdoc/node-npmdoc-jit-grunt
 └─┬ grunt@1.0.1 
   ├── coffee-script@1.10.0 
   ├─┬ dateformat@1.0.12 
